@@ -1,0 +1,23 @@
+@using Sandbox;
+@using Sandbox.UI;
+@inherits PanelComponent
+@namespace Sandbox
+
+<root>
+	@if ( Player.Items != null )
+	{
+		@foreach ( var i in Player.Items )
+		{
+			<img src=@i.Icon.ResourcePath alt="">
+		}
+	}
+</root>
+
+@code
+{
+	[Property] ChikaraPlayer Player { get; set; }
+	protected override int BuildHash()
+	{
+		return System.HashCode.Combine( Player.Items );
+	}
+}
