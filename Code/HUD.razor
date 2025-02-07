@@ -4,13 +4,15 @@
 @namespace Sandbox
 
 <root>
-	@if ( Player.Items != null )
-	{
-		@foreach ( var i in Player.Items )
+	<div class="Items">
+		@if ( Player.Items != null )
 		{
-			<img src=@i.Icon.ResourcePath alt="">
+			@foreach ( var i in Player.Items )
+			{
+				<img class="Item" src=@i.Icon.ResourcePath alt="">
+			}
 		}
-	}
+	</div>
 </root>
 
 @code
@@ -18,6 +20,6 @@
 	[Property] ChikaraPlayer Player { get; set; }
 	protected override int BuildHash()
 	{
-		return System.HashCode.Combine( Player.Items );
+		return System.HashCode.Combine( Player.Items.Count );
 	}
 }

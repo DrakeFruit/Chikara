@@ -9,17 +9,17 @@
     "$compiler": "texture",
     "$source": "text",
     "data": {
-      "Size": "128,128",
+      "Size": "96,96",
       "Margin": {
         "Size": "0,0",
         "EdgeSize": "0,0"
       },
       "TextFlags": "CenterHorizontally, CenterVertically, DontClip",
       "TextScope": {
-        "Text": "\uD83E\uDD15",
+        "Text": "☕",
         "TextColor": "1,1,1,1",
         "FontName": "Roboto",
-        "FontSize": 64,
+        "FontSize": 40,
         "FontWeight": 400,
         "FontItalic": false,
         "LineHeight": 1,
