@@ -1,18 +1,22 @@
 namespace Chikara;
-public sealed class Item : Component, Component.ITriggerListener
+public class Item : Component, Component.ITriggerListener
 {
-	[Property] ItemDefinition ItemDefinition { get; set; }
-	private PlayerController controller;
-	private ChikaraPlayer player;
+	[Property] public ItemDefinition ItemDefinition { get; set; }
+	public PlayerController Controller { get; set; }
+	public ChikaraPlayer Player { get; set; }
 	protected override void OnStart()
 	{
-		
+		LocalPosition += Vector3.Up * 5f;
+		LocalRotation = LocalRotation.Angles().WithPitch( -15 );
 	}
-	public void OnTriggerEnter( GameObject other )
+	protected override void OnFixedUpdate()
 	{
-		controller = other.GetComponent<PlayerController>();
-		player = other.GetComponent<ChikaraPlayer>();
-		controller.RunSpeed *= 1.05f;
-		player.Items.Add( ItemDefinition );
+		LocalRotation = LocalRotation.Angles().WithYaw( LocalRotation.Yaw() + 1 );
+	}
+	public virtual void OnTriggerEnter( GameObject other )
+	{
+		Controller = other.GetComponent<PlayerController>();
+		Player = other.GetComponent<ChikaraPlayer>();
+		Player.Items.Add( ItemDefinition );
 	}
 }
