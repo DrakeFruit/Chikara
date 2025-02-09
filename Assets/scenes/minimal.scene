@@ -600,13 +600,124 @@
       "Children": []
     },
     {
-      "__guid": "a82a66c7-b39e-4808-9155-4f9dbba93c1c",
+      "__guid": "e921e191-e888-4454-8f9b-962fe36b8cc7",
       "Flags": 0,
-      "Name": "coffee",
-      "Position": "256,0,-0.4099732",
+      "Name": "Coffee Spawn",
+      "Position": "128,-64,0",
       "Enabled": true,
-      "__Prefab": "items/coffee.prefab",
-      "__PrefabVariables": {}
+      "Components": [
+        {
+          "__type": "Chikara.ItemSpawner",
+          "__guid": "cb1efbd9-995b-4b9d-ba1f-b0cb1797167a",
+          "ItemDefinition": "items/coffee.item",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        }
+      ]
+    },
+    {
+      "__guid": "302a5760-76b0-4d57-971f-ba45fcd4d4f1",
+      "Flags": 0,
+      "Name": "Coffee Spawn (1)",
+      "Position": "128,0,0",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Chikara.ItemSpawner",
+          "__guid": "78996e01-5cdb-4f0b-83fe-30fa1115f14c",
+          "ItemDefinition": "items/coffee.item",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        }
+      ]
+    },
+    {
+      "__guid": "4497808d-41ae-4895-ab4e-7c283a9c63ac",
+      "Flags": 0,
+      "Name": "Coffee Spawn (2)",
+      "Position": "128,64,0",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Chikara.ItemSpawner",
+          "__guid": "ac32504f-7358-4e1c-bf4c-5138f3340ff7",
+          "ItemDefinition": "items/coffee.item",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        }
+      ]
+    },
+    {
+      "__guid": "06885877-c620-4bce-89b2-a78e9d760891",
+      "Flags": 0,
+      "Name": "Coffee Spawn (3)",
+      "Position": "192,64,0",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Chikara.ItemSpawner",
+          "__guid": "5e3a16fc-297f-464d-9df8-ec34102da9fa",
+          "ItemDefinition": "items/coffee.item",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        }
+      ]
+    },
+    {
+      "__guid": "25712bca-8aae-401c-90df-f1b91b02d22a",
+      "Flags": 0,
+      "Name": "Coffee Spawn (4)",
+      "Position": "192,0,0",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Chikara.ItemSpawner",
+          "__guid": "71c8d8c2-db57-4906-a504-7667cf9d8bb6",
+          "ItemDefinition": "items/coffee.item",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        }
+      ]
+    },
+    {
+      "__guid": "54a99c6e-bea8-410a-b701-d44700948966",
+      "Flags": 0,
+      "Name": "Coffee Spawn (5)",
+      "Position": "192,-64,0",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Chikara.ItemSpawner",
+          "__guid": "10c7de43-666b-4e27-a1e5-9130abd3f5d3",
+          "ItemDefinition": "items/coffee.item",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        }
+      ]
     }
   ],
   "SceneProperties": {

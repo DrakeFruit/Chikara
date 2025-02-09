@@ -9,7 +9,13 @@
 		{
 			@foreach ( var i in Player.Items )
 			{
-				<img class="Item" src=@i.Icon.ResourcePath alt="">
+				<div class="Item">
+					<img src=@i.Key.Icon.ResourcePath alt="">
+					@if ( i.Value > 1 )
+					{
+						<div class="ItemCounter"><div>x</div>@i.Value</div>
+					}
+				</div>
 			}
 		}
 	</div>
@@ -20,6 +26,6 @@
 	[Property] ChikaraPlayer Player { get; set; }
 	protected override int BuildHash()
 	{
-		return System.HashCode.Combine( Player.Items.Count );
+		return System.HashCode.Combine( Player.Items );
 	}
 }

@@ -8,16 +8,29 @@ HUD
 	
 	.Items
 	{
+		position: relative;
+		margin: 4px;
 		background-color: rgba(0, 0, 0, 0.75);
 		border: 3px solid rgba(0, 0, 0, 1);
 		width: 96.5%;
-		height: fit-content;
+		height: auto;
 		min-height: 10%;
 		flex-wrap: wrap;
 		flex-direction: row;
 	}
-	.Item 
+	.Item img
 	{
-		
+		width: 115px;
+		height: 115px;
+	}
+	.ItemCounter
+	{
+		color: white;
+		text-stroke: 10px black;
+		font-weight: bold;
+		position: absolute;
+		font-size: 35px;
+		left: 55px;
+		top: 55px;
 	}
 }

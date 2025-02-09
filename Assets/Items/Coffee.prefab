@@ -6,8 +6,8 @@
     "Enabled": true,
     "Components": [
       {
-        "__type": "Chikara.Coffee",
-        "__guid": "79b02dd2-f897-40c8-af6f-5434a27c5f3e",
+        "__type": "Chikara.ItemPickup",
+        "__guid": "0224c63f-23ce-48b6-aeb3-9bc053c1bc06",
         "ItemDefinition": "items/coffee.item",
         "OnComponentDestroy": null,
         "OnComponentDisabled": null,

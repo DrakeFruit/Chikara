@@ -1,6 +1,7 @@
 {
   "Name": "Coffee",
   "Description": "You run faster, very addictive",
+  "ItemComponent": "Chikara.Coffee",
   "Prefab": {
     "_type": "gameobject",
     "prefab": "items/coffee.prefab"
@@ -49,7 +50,7 @@
         }
       }
     },
-    "compiled": null
+    "compiled": "textures/generated/text/635d2687e4e6271a.vtex"
   },
   "__references": [],
   "__version": 0
