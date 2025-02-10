@@ -272,6 +272,16 @@
           "Quality": "High",
           "Radius": 128,
           "ThinCompensation": 0
+        },
+        {
+          "__type": "Sandbox.Highlight",
+          "__guid": "4779a84d-60d9-4294-8467-c3ce0c44ce24",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
         }
       ]
     },
@@ -347,7 +357,7 @@
           "ShowColliderComponents": false,
           "ShowRigidbodyComponent": false,
           "ThirdPerson": true,
-          "ToggleCameraModeButton": "view",
+          "ToggleCameraModeButton": "",
           "UseAnimatorControls": true,
           "UseButton": "use",
           "UseCameraControls": true,

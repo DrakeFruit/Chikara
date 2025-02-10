@@ -10,6 +10,6 @@ public sealed class ChikaraPlayer : Component
 	}
 	public void OnPickup( ItemDefinition item )
 	{
-		//Components.Create( TypeLibrary.GetType( item.ItemComponent ) );
+		
 	}
 }

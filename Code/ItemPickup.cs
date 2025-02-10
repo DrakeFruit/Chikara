@@ -24,6 +24,8 @@ public class ItemPickup : Component, Component.ITriggerListener
 			Player.Items[ItemDefinition]++;
 		}
 		Player.OnPickup( ItemDefinition );
+		var type = TypeLibrary.GetType( ItemDefinition.ItemComponent );
+		Player.Components.Create( type );
 		GameObject.Destroy();
 	}
 }

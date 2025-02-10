@@ -68,6 +68,22 @@
             },
             "RenderType": "On",
             "Tint": "1,1,1,1"
+          },
+          {
+            "__type": "Sandbox.HighlightOutline",
+            "__guid": "9a5c4b23-f17a-4ce9-8ee5-76939cca5954",
+            "Color": "1,1,1,1",
+            "InsideColor": "1,1,1,0",
+            "InsideObscuredColor": "1,1,1,0",
+            "Material": null,
+            "ObscuredColor": "1,1,1,1",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "Width": 0.25
           }
         ]
       }
