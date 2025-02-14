@@ -298,13 +298,23 @@
       "Enabled": true,
       "Components": [
         {
+          "__type": "ChikaraPlayer",
+          "__guid": "f243994c-60f4-4068-b61c-3fc9eb0672ca",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        },
+        {
           "__type": "Sandbox.PlayerController",
           "__guid": "2fa60e8d-0f3e-4394-b604-abde0a072b43",
           "AccelerationTime": 0,
           "AimStrengthBody": 1,
           "AimStrengthEyes": 1,
           "AimStrengthHead": 1,
-          "AltMoveButton": "run",
+          "AltMoveButton": "",
           "Body": {
             "_type": "component",
             "component_id": "998d96fd-e7c0-46ab-a85f-ac7755d4c4ca",
@@ -316,14 +326,14 @@
           "BodyMass": 500,
           "BodyRadius": 16,
           "BrakePower": 1,
-          "CameraOffset": "256,0,12",
+          "CameraOffset": "256,50,12",
           "ColliderObject": {
             "_type": "gameobject",
             "go": "6c7e0653-b04c-4e1b-9500-e3b3b8331ec2"
           },
           "DeaccelerationTime": 0,
           "DuckedHeight": 36,
-          "DuckedSpeed": 70,
+          "DuckedSpeed": 200,
           "EnableFootstepSounds": true,
           "EnablePressing": true,
           "EyeDistanceFromTop": 8,
@@ -352,7 +362,7 @@
           "RotateWithGround": true,
           "RotationAngleLimit": 45,
           "RotationSpeed": 1,
-          "RunByDefault": false,
+          "RunByDefault": true,
           "RunSpeed": 320,
           "ShowColliderComponents": false,
           "ShowRigidbodyComponent": false,
@@ -364,7 +374,7 @@
           "UseFovFromPreferences": true,
           "UseInputControls": true,
           "UseLookControls": true,
-          "WalkSpeed": 110
+          "WalkSpeed": 200
         },
         {
           "__type": "Sandbox.Rigidbody",
@@ -431,8 +441,8 @@
           "Speed": 1
         },
         {
-          "__type": "ChikaraPlayer",
-          "__guid": "f243994c-60f4-4068-b61c-3fc9eb0672ca",
+          "__type": "Chikara.MoveModeGrapple",
+          "__guid": "b83efb8b-df59-4407-b6c5-e92a86fafebe",
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
@@ -774,6 +784,59 @@
           "OnTriggerExit": null,
           "SmoothingAngle": 40,
           "Static": true,
+          "Surface": null,
+          "SurfaceVelocity": "0,0,0"
+        }
+      ]
+    },
+    {
+      "__guid": "dd9cdde0-cd0b-4974-859a-df646f99ab7d",
+      "Flags": 0,
+      "Name": "Cube",
+      "Position": "896,128,512",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "b0eb6c9c-0631-4802-8376-982d8d56abfe",
+          "BodyGroups": 18446744073709551615,
+          "CreateAttachments": false,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Model": "models/dev/box.vmdl",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "c05fcc39-0a7a-4b48-90a5-6e26db3d85ce",
+          "Center": "0,0,0",
+          "Friction": null,
+          "IsTrigger": false,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
+          "Scale": "50,50,50",
+          "Static": false,
           "Surface": null,
           "SurfaceVelocity": "0,0,0"
         }

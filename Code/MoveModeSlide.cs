@@ -7,8 +7,7 @@ using Sandbox.Movement;
 public sealed class MoveModeSlide : MoveMode, PlayerController.IEvents
 {
 	[RequireComponent] public ChikaraPlayer Player { get; set; }
-	[RequireComponent] public PlayerController Controller { get; set; }
-	private bool Sliding = false;
+	public bool Sliding = false;
 	protected override void OnFixedUpdate()
 	{
 		if( Input.Down( "Duck" ) && Controller.Velocity.Length >= 10 ) Sliding = true;
@@ -17,5 +16,6 @@ public sealed class MoveModeSlide : MoveMode, PlayerController.IEvents
 	public override void AddVelocity()
 	{
 		//if( Sliding ) 
+		
 	}
 }
