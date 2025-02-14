@@ -19,7 +19,7 @@
       {
         "__type": "Sandbox.BoxCollider",
         "__guid": "2a19113a-91e1-42ff-979a-0ab7436855ba",
-        "Center": "-0.03674221,0.0006074905,13.38234",
+        "Center": "0.8392315,0.3354549,13.1919",
         "Friction": null,
         "IsTrigger": true,
         "OnComponentDestroy": null,
@@ -32,7 +32,7 @@
         "OnObjectTriggerExit": null,
         "OnTriggerEnter": null,
         "OnTriggerExit": null,
-        "Scale": "20.66782,19.84532,28.93079",
+        "Scale": "36.73956,36.08578,41.22806",
         "Static": false,
         "Surface": null,
         "SurfaceVelocity": "0,0,0"

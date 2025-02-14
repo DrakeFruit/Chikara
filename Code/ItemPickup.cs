@@ -1,6 +1,7 @@
 using System;
 
 namespace Chikara;
+[Category( "Items" )]
 public class ItemPickup : Component, Component.ITriggerListener
 {
 	[Property] public ItemDefinition ItemDefinition { get; set; }

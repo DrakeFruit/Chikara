@@ -75,8 +75,8 @@
           "__type": "Sandbox.EnvmapProbe",
           "__guid": "f3e304db-baab-4c1a-a4ec-8442585c2d62",
           "Bounds": {
-            "Mins": "-2199.961,-2180.104,-201.5802",
-            "Maxs": "2216.835,2425.357,897.828"
+            "Mins": "-10000,-10000,-200.0012",
+            "Maxs": "10000,10000,4152.654"
           },
           "DelayBetweenUpdates": 0.1,
           "Feathering": 0.02,
@@ -395,7 +395,7 @@
         },
         {
           "__type": "Sandbox.Movement.MoveModeWalk",
-          "__guid": "bbde82d4-45a6-491e-8d59-b29e46222961",
+          "__guid": "1e9d87d2-df5c-4d95-b28a-103ab524e9b3",
           "GroundAngle": 45,
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
@@ -408,16 +408,14 @@
           "StepUpHeight": 18
         },
         {
-          "__type": "Sandbox.Movement.MoveModeSwim",
-          "__guid": "d9e2027c-f64f-45ea-a5df-b9e90cd6de17",
+          "__type": "MoveModeSlide",
+          "__guid": "f637de35-a5e4-4c38-b363-548a00139b53",
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
           "OnComponentFixedUpdate": null,
           "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "Priority": 10,
-          "SwimLevel": 0.7
+          "OnComponentUpdate": null
         },
         {
           "__type": "Sandbox.Movement.MoveModeLadder",
@@ -583,33 +581,6 @@
       ]
     },
     {
-      "__guid": "ffbe7821-0186-48f3-ae85-45c8a118aeb8",
-      "Flags": 0,
-      "Name": "Map",
-      "Position": "244,1799.599,11135.59",
-      "Enabled": true,
-      "Components": [
-        {
-          "__type": "Sandbox.MapInstance",
-          "__guid": "fbae9b6d-1af3-4753-bb57-094a39292168",
-          "__version": 1,
-          "EnableCollision": true,
-          "MapName": "softsplit.gm_bigcity",
-          "NoOrigin": false,
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "OnMapLoaded": null,
-          "OnMapUnloaded": null,
-          "UseMapFromLaunch": false
-        }
-      ],
-      "Children": []
-    },
-    {
       "__guid": "e921e191-e888-4454-8f9b-962fe36b8cc7",
       "Flags": 0,
       "Name": "Coffee Spawn",
@@ -726,6 +697,85 @@
           "OnComponentFixedUpdate": null,
           "OnComponentStart": null,
           "OnComponentUpdate": null
+        }
+      ]
+    },
+    {
+      "__guid": "e5098607-1a53-4b1e-b34a-132195930579",
+      "Flags": 0,
+      "Name": "Box",
+      "Position": "384,-64,0",
+      "Enabled": true,
+      "Components": [
+        {
+          "__type": "Sandbox.MeshComponent",
+          "__guid": "379045b2-7959-4967-9394-247f96cb2776",
+          "Collision": "Mesh",
+          "Color": "1,1,1,1",
+          "Friction": null,
+          "HideInGame": false,
+          "IsTrigger": false,
+          "Mesh": {
+            "Topology": "H4sIAAAAAAAACk2MCQoAIQzE4qqr//9wJdiCA6WQOQawgcbVBwzgT+bJXi0gIkLeM68q69fXm7n1bsv1a6skN2tH394B6DpJeKAAAAA=",
+            "Positions": [
+              "-5248,-4288,0",
+              "4480,-4288,0",
+              "4480,4416,0",
+              "-5248,4416,0"
+            ],
+            "TextureCoord": [
+              "38,34.5",
+              "0,0",
+              "38,-33.5",
+              "0,0",
+              "-38,-33.5",
+              "0,0",
+              "-38,34.5",
+              "0,0"
+            ],
+            "TextureUAxis": [
+              "1,0,0"
+            ],
+            "TextureVAxis": [
+              "0,-1,0"
+            ],
+            "TextureScale": [
+              "0.25,0.25"
+            ],
+            "TextureOffset": [
+              "0,256"
+            ],
+            "MaterialIndex": [
+              0
+            ],
+            "EdgeFlags": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "Materials": [
+              "materials/dev/reflectivity_30.vmat"
+            ]
+          },
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
+          "SmoothingAngle": 40,
+          "Static": true,
+          "Surface": null,
+          "SurfaceVelocity": "0,0,0"
         }
       ]
     }

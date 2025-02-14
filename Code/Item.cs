@@ -2,6 +2,7 @@
 
 namespace Sandbox;
 
+[Category( "Items" )]
 public class Item : Component
 {
 	public ChikaraPlayer player { get; set; }

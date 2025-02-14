@@ -1,5 +1,6 @@
 ﻿namespace Chikara;
 
+[Category( "Items" )]
 public class Coffee : Item
 {
 	protected override void OnStart()
