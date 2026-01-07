@@ -1,14 +1,91 @@
 {
   "RootObject": {
     "__guid": "f79e4042-0f74-45b6-84ed-788ad1da9adf",
+    "__version": 2,
     "Flags": 0,
     "Name": "coffee",
+    "Position": "0,0,0",
+    "Rotation": "0,0,0,1",
+    "Scale": "1,1,1",
+    "Tags": "",
     "Enabled": true,
+    "NetworkMode": 2,
+    "NetworkFlags": 0,
+    "NetworkOrphaned": 0,
+    "NetworkTransmit": true,
+    "OwnerTransfer": 1,
     "Components": [
       {
         "__type": "Chikara.ItemPickup",
         "__guid": "0224c63f-23ce-48b6-aeb3-9bc053c1bc06",
-        "ItemDefinition": "items/coffee.item",
+        "__enabled": true,
+        "Flags": 0,
+        "Definition": {
+          "$compiler": "embed",
+          "$source": null,
+          "data": {
+            "Name": "Coffee",
+            "Description": "You run faster, very addictive",
+            "ItemComponent": "Coffee",
+            "Prefab": {
+              "_type": "gameobject",
+              "prefab": "items/coffee.prefab"
+            },
+            "Icon": {
+              "$compiler": "texture",
+              "$source": "text",
+              "data": {
+                "Size": "96,96",
+                "Margin": {
+                  "Left": 0,
+                  "Top": 0,
+                  "Right": 0,
+                  "Bottom": 0
+                },
+                "TextFlags": "Center, DontClip",
+                "TextScope": {
+                  "Text": "☕",
+                  "TextColor": "1,1,1,1",
+                  "FontName": "Roboto",
+                  "FontSize": 40,
+                  "FontWeight": 400,
+                  "FontItalic": false,
+                  "LineHeight": 1,
+                  "LetterSpacing": 0,
+                  "WordSpacing": 0,
+                  "FilterMode": "Point",
+                  "FontSmooth": "Auto",
+                  "Outline": {
+                    "Enabled": false,
+                    "Size": 4,
+                    "Color": "0,0,1,1"
+                  },
+                  "Shadow": {
+                    "Enabled": false,
+                    "Size": 4,
+                    "Color": "0,0,0,1",
+                    "Offset": "4,4"
+                  },
+                  "OutlineUnder": {
+                    "Enabled": false,
+                    "Size": 4,
+                    "Color": "0,1,0,1"
+                  },
+                  "ShadowUnder": {
+                    "Enabled": false,
+                    "Size": 4,
+                    "Color": "0,0,0,1",
+                    "Offset": "4,4"
+                  }
+                }
+              },
+              "compiled": null
+            },
+            "Tilted": true,
+            "__references": []
+          },
+          "compiled": null
+        },
         "OnComponentDestroy": null,
         "OnComponentDisabled": null,
         "OnComponentEnabled": null,
@@ -19,7 +96,11 @@
       {
         "__type": "Sandbox.BoxCollider",
         "__guid": "2a19113a-91e1-42ff-979a-0ab7436855ba",
+        "__enabled": true,
+        "Flags": 0,
         "Center": "0.8392315,0.3354549,13.1919",
+        "ColliderFlags": 0,
+        "Elasticity": null,
         "Friction": null,
         "IsTrigger": true,
         "OnComponentDestroy": null,
@@ -32,6 +113,7 @@
         "OnObjectTriggerExit": null,
         "OnTriggerEnter": null,
         "OnTriggerExit": null,
+        "RollingResistance": null,
         "Scale": "36.73956,36.08578,41.22806",
         "Static": false,
         "Surface": null,
@@ -41,18 +123,31 @@
     "Children": [
       {
         "__guid": "f8ca616a-2ac0-406c-965b-fab9487daece",
+        "__version": 2,
         "Flags": 0,
         "Name": "Model",
+        "Position": "0,0,0",
+        "Rotation": "0,0,0,1",
         "Scale": "3,3,3",
+        "Tags": "",
         "Enabled": true,
+        "NetworkMode": 2,
+        "NetworkFlags": 0,
+        "NetworkOrphaned": 0,
+        "NetworkTransmit": true,
+        "OwnerTransfer": 1,
         "Components": [
           {
             "__type": "Sandbox.ModelRenderer",
             "__guid": "885dc159-9987-4ad4-9746-b82402934f9d",
+            "__enabled": true,
+            "Flags": 0,
             "BodyGroups": 18446744073709551615,
             "CreateAttachments": false,
+            "LodOverride": null,
             "MaterialGroup": null,
             "MaterialOverride": null,
+            "Materials": null,
             "Model": "assets/untitled_12.vmdl",
             "OnComponentDestroy": null,
             "OnComponentDisabled": null,
@@ -72,6 +167,8 @@
           {
             "__type": "Sandbox.HighlightOutline",
             "__guid": "9a5c4b23-f17a-4ce9-8ee5-76939cca5954",
+            "__enabled": true,
+            "Flags": 0,
             "Color": "1,1,1,1",
             "InsideColor": "1,1,1,0",
             "InsideObscuredColor": "1,1,1,0",
@@ -83,21 +180,18 @@
             "OnComponentFixedUpdate": null,
             "OnComponentStart": null,
             "OnComponentUpdate": null,
+            "OverrideTargets": false,
+            "Targets": null,
             "Width": 0.25
           }
-        ]
+        ],
+        "Children": []
       }
     ],
-    "__variables": [],
     "__properties": {
-      "FixedUpdateFrequency": 50,
-      "MaxFixedUpdates": 5,
-      "NetworkFrequency": 30,
       "NetworkInterpolation": true,
-      "PhysicsSubSteps": 1,
-      "ThreadedAnimation": true,
       "TimeScale": 1,
-      "UseFixedUpdate": true,
+      "WantsSystemScene": true,
       "Metadata": {},
       "NavMesh": {
         "Enabled": false,
@@ -111,15 +205,16 @@
         "ExcludedBodies": "",
         "IncludedBodies": ""
       }
-    }
+    },
+    "__variables": []
   },
+  "ResourceVersion": 2,
   "ShowInMenu": false,
   "MenuPath": null,
   "MenuIcon": null,
   "DontBreakAsTemplate": false,
-  "ResourceVersion": 1,
   "__references": [
     "polyrats.untitled_12#13948"
   ],
-  "__version": 1
+  "__version": 2
 }

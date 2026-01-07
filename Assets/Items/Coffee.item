@@ -1,57 +1,13 @@
 {
   "Name": "Coffee",
   "Description": "You run faster, very addictive",
-  "ItemComponent": "Chikara.Coffee",
+  "ItemComponent": "Coffee",
   "Prefab": {
     "_type": "gameobject",
     "prefab": "items/coffee.prefab"
   },
-  "Icon": {
-    "$compiler": "texture",
-    "$source": "text",
-    "data": {
-      "Size": "96,96",
-      "Margin": {
-        "Size": "0,0",
-        "EdgeSize": "0,0"
-      },
-      "TextFlags": "CenterHorizontally, CenterVertically, DontClip",
-      "TextScope": {
-        "Text": "☕",
-        "TextColor": "1,1,1,1",
-        "FontName": "Roboto",
-        "FontSize": 40,
-        "FontWeight": 400,
-        "FontItalic": false,
-        "LineHeight": 1,
-        "LetterSpacing": 0,
-        "WordSpacing": 0,
-        "Outline": {
-          "Enabled": false,
-          "Size": 4,
-          "Color": "0,0,1,1"
-        },
-        "Shadow": {
-          "Enabled": false,
-          "Size": 4,
-          "Color": "0,0,0,1",
-          "Offset": "4,4"
-        },
-        "OutlineUnder": {
-          "Enabled": false,
-          "Size": 4,
-          "Color": "0,1,0,1"
-        },
-        "ShadowUnder": {
-          "Enabled": false,
-          "Size": 4,
-          "Color": "0,0,0,1",
-          "Offset": "4,4"
-        }
-      }
-    },
-    "compiled": "textures/generated/text/635d2687e4e6271a.vtex"
-  },
+  "Tilted": true,
+  "Icon": null,
   "__references": [],
   "__version": 0
 }

@@ -4,13 +4,13 @@ namespace Chikara;
 [Category( "Items" )]
 public class ItemPickup : Component, Component.ITriggerListener
 {
-	[Property] public ItemDefinition ItemDefinition { get; set; }
+	[Property] public ItemDefinition Definition { get; set; }
 	public PlayerController Controller { get; set; }
 	public ChikaraPlayer Player { get; set; }
 	protected override void OnStart()
 	{
 		LocalPosition += Vector3.Up * 5f;
-		LocalRotation = LocalRotation.Angles().WithPitch( -15 );
+		if ( Definition.Tilted ) LocalRotation = LocalRotation.Angles().WithPitch( -15 );
 	}
 	protected override void OnFixedUpdate()
 	{
@@ -20,13 +20,14 @@ public class ItemPickup : Component, Component.ITriggerListener
 	{
 		Controller = other.GetComponent<PlayerController>();
 		Player = other.GetComponent<ChikaraPlayer>();
-		if ( !Player.Items.TryAdd(ItemDefinition, 1) )
+		if ( !Controller.IsValid() || !Player.IsValid() ) return;
+
+		var type = TypeLibrary.GetType( Definition.ItemComponent );
+		var comp = Player.Components.Create( type );
+		if ( comp is Item item )
 		{
-			Player.Items[ItemDefinition]++;
+			item.Definition = Definition;
 		}
-		Player.OnPickup( ItemDefinition );
-		var type = TypeLibrary.GetType( ItemDefinition.ItemComponent );
-		Player.Components.Create( type );
 		GameObject.Destroy();
 	}
 }
