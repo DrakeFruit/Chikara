@@ -22,7 +22,10 @@
 		}
 	</div>
 
-	<div class="HealthBar">@Player.Health</div>
+	<div class="Health">
+		<div class="HealthBar" style="width: @(Player.Health / Player.MaxHealth * 100)%"></div>
+		<div class="HealthNumber">@Player.Health / @Player.MaxHealth</div>
+	</div>
 </root> 
 
 @code

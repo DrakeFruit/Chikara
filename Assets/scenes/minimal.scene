@@ -760,6 +760,7 @@
           "__guid": "f243994c-60f4-4068-b61c-3fc9eb0672ca",
           "__enabled": true,
           "Flags": 0,
+          "MaxHealth": 100,
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
@@ -3686,7 +3687,13 @@
           "OnComponentEnabled": null,
           "OnComponentFixedUpdate": null,
           "OnComponentStart": null,
-          "OnComponentUpdate": null
+          "OnComponentUpdate": null,
+          "Renderer": {
+            "_type": "component",
+            "component_id": "03fd8ab2-a685-4b54-9dc9-df2a85168b05",
+            "go": "db04b2e7-b58a-400a-a524-2977200dd680",
+            "component_type": "SkinnedModelRenderer"
+          }
         },
         {
           "__type": "Sandbox.Rigidbody",

@@ -1,4 +1,5 @@
 using Sandbox;
+using Sandbox.Movement;
 
 public sealed class Enemy : Component
 {
@@ -19,27 +20,40 @@ public sealed class Enemy : Component
 		} 
 		else if ( timeSinceAttackStarted > AttackDuration && distanceToClosest.Length > AttackRange )
 		{
-			Move();
+			UpdateMove();
 		}
+
+		UpdateAnimations();
 	}
 
 	public void Attack()
 	{
 		timeSinceAttackStarted = 0;
 
-			closestPlayer.OnDamage( new DamageInfo()
-			{
-				Damage = 5,
-				Attacker = GameObject,
-			} );
-			closestPlayer.GetComponent<Rigidbody>().ApplyImpulse( distanceToClosest.Normal * 10000 + Vector3.Up * 2000 );
+		closestPlayer.OnDamage( new DamageInfo()
+		{
+			Damage = 5,
+			Attacker = GameObject,
+		} );
+		Renderer.Set( "holdtype", 5 );
+		Renderer.Set( "b_attack", true );
+		closestPlayer.GetComponent<Rigidbody>().ApplyImpulse( distanceToClosest.Normal * 10000 + Vector3.Up * 2000 );
 
-			timeSinceLastAttack = 0;
+		timeSinceLastAttack = 0;
 	}
 
-	public void Move()
+	public void UpdateMove()
 	{
+		Renderer.Set( "holdtype", 0 );
 		Rb.Velocity = ( distanceToClosest.Normal * 100 ).WithZ( Rb.Velocity.z );
 		WorldRotation = Rotation.LookAt( distanceToClosest.Normal.WithZ(0), Vector3.Up );
+	}
+
+	public void UpdateAnimations()
+	{
+		var relativeX = Vector3.Dot( Rb.Velocity, WorldRotation.Forward );
+  		var relativeY = Vector3.Dot( Rb.Velocity, WorldRotation.Right );
+  		Renderer.Set( "move_x", relativeX );
+  		Renderer.Set( "move_y", relativeY );
 	}
 }

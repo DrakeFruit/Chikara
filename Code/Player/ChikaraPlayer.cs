@@ -7,11 +7,15 @@ public partial class ChikaraPlayer : Component, Component.IDamageable
 	public static ChikaraPlayer Local => Game.ActiveScene.GetAll<ChikaraPlayer>().FirstOrDefault( x => !x.IsProxy );
 	public static PlayerController LocalController => Local.GetComponent<PlayerController>();
 	[Sync] public NetDictionary<ItemDefinition, int> Items { get; set; } = new();
+	[Property, Sync] public float MaxHealth { get; set; } = 100f;
 	[Sync] public float Health { get; set; } = 100f;
-
 	public void OnDamage( in DamageInfo damage )
 	{
 		Health -= damage.Damage;
+	}
+	protected override void OnStart()
+	{
+		Health = MaxHealth;
 	}
 
 	protected override void OnUpdate()
