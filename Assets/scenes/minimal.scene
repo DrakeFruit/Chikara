@@ -481,57 +481,8 @@
                     "_type": "gameobject",
                     "prefab": "items/coffee.prefab"
                   },
-                  "Icon": {
-                    "$compiler": "texture",
-                    "$source": "text",
-                    "data": {
-                      "Size": "96,96",
-                      "Margin": {
-                        "Left": 0,
-                        "Top": 0,
-                        "Right": 0,
-                        "Bottom": 0
-                      },
-                      "TextFlags": "Center, DontClip",
-                      "TextScope": {
-                        "Text": "☕",
-                        "TextColor": "1,1,1,1",
-                        "FontName": "Roboto",
-                        "FontSize": 40,
-                        "FontWeight": 400,
-                        "FontItalic": false,
-                        "LineHeight": 1,
-                        "LetterSpacing": 0,
-                        "WordSpacing": 0,
-                        "FilterMode": "Point",
-                        "FontSmooth": "Auto",
-                        "Outline": {
-                          "Enabled": false,
-                          "Size": 4,
-                          "Color": "0,0,1,1"
-                        },
-                        "Shadow": {
-                          "Enabled": false,
-                          "Size": 4,
-                          "Color": "0,0,0,1",
-                          "Offset": "4,4"
-                        },
-                        "OutlineUnder": {
-                          "Enabled": false,
-                          "Size": 4,
-                          "Color": "0,1,0,1"
-                        },
-                        "ShadowUnder": {
-                          "Enabled": false,
-                          "Size": 4,
-                          "Color": "0,0,0,1",
-                          "Offset": "4,4"
-                        }
-                      }
-                    },
-                    "compiled": null
-                  },
                   "Tilted": true,
+                  "Icon": null,
                   "__references": []
                 },
                 "compiled": null
@@ -578,57 +529,8 @@
                     "_type": "gameobject",
                     "prefab": "items/coffee.prefab"
                   },
-                  "Icon": {
-                    "$compiler": "texture",
-                    "$source": "text",
-                    "data": {
-                      "Size": "96,96",
-                      "Margin": {
-                        "Left": 0,
-                        "Top": 0,
-                        "Right": 0,
-                        "Bottom": 0
-                      },
-                      "TextFlags": "Center, DontClip",
-                      "TextScope": {
-                        "Text": "☕",
-                        "TextColor": "1,1,1,1",
-                        "FontName": "Roboto",
-                        "FontSize": 40,
-                        "FontWeight": 400,
-                        "FontItalic": false,
-                        "LineHeight": 1,
-                        "LetterSpacing": 0,
-                        "WordSpacing": 0,
-                        "FilterMode": "Point",
-                        "FontSmooth": "Auto",
-                        "Outline": {
-                          "Enabled": false,
-                          "Size": 4,
-                          "Color": "0,0,1,1"
-                        },
-                        "Shadow": {
-                          "Enabled": false,
-                          "Size": 4,
-                          "Color": "0,0,0,1",
-                          "Offset": "4,4"
-                        },
-                        "OutlineUnder": {
-                          "Enabled": false,
-                          "Size": 4,
-                          "Color": "0,1,0,1"
-                        },
-                        "ShadowUnder": {
-                          "Enabled": false,
-                          "Size": 4,
-                          "Color": "0,0,0,1",
-                          "Offset": "4,4"
-                        }
-                      }
-                    },
-                    "compiled": null
-                  },
                   "Tilted": true,
+                  "Icon": null,
                   "__references": []
                 },
                 "compiled": null
@@ -675,57 +577,8 @@
                     "_type": "gameobject",
                     "prefab": "items/coffee.prefab"
                   },
-                  "Icon": {
-                    "$compiler": "texture",
-                    "$source": "text",
-                    "data": {
-                      "Size": "96,96",
-                      "Margin": {
-                        "Left": 0,
-                        "Top": 0,
-                        "Right": 0,
-                        "Bottom": 0
-                      },
-                      "TextFlags": "Center, DontClip",
-                      "TextScope": {
-                        "Text": "☕",
-                        "TextColor": "1,1,1,1",
-                        "FontName": "Roboto",
-                        "FontSize": 40,
-                        "FontWeight": 400,
-                        "FontItalic": false,
-                        "LineHeight": 1,
-                        "LetterSpacing": 0,
-                        "WordSpacing": 0,
-                        "FilterMode": "Point",
-                        "FontSmooth": "Auto",
-                        "Outline": {
-                          "Enabled": false,
-                          "Size": 4,
-                          "Color": "0,0,1,1"
-                        },
-                        "Shadow": {
-                          "Enabled": false,
-                          "Size": 4,
-                          "Color": "0,0,0,1",
-                          "Offset": "4,4"
-                        },
-                        "OutlineUnder": {
-                          "Enabled": false,
-                          "Size": 4,
-                          "Color": "0,1,0,1"
-                        },
-                        "ShadowUnder": {
-                          "Enabled": false,
-                          "Size": 4,
-                          "Color": "0,0,0,1",
-                          "Offset": "4,4"
-                        }
-                      }
-                    },
-                    "compiled": null
-                  },
                   "Tilted": true,
+                  "Icon": null,
                   "__references": []
                 },
                 "compiled": null
@@ -772,57 +625,8 @@
                     "_type": "gameobject",
                     "prefab": "items/coffee.prefab"
                   },
-                  "Icon": {
-                    "$compiler": "texture",
-                    "$source": "text",
-                    "data": {
-                      "Size": "96,96",
-                      "Margin": {
-                        "Left": 0,
-                        "Top": 0,
-                        "Right": 0,
-                        "Bottom": 0
-                      },
-                      "TextFlags": "Center, DontClip",
-                      "TextScope": {
-                        "Text": "☕",
-                        "TextColor": "1,1,1,1",
-                        "FontName": "Roboto",
-                        "FontSize": 40,
-                        "FontWeight": 400,
-                        "FontItalic": false,
-                        "LineHeight": 1,
-                        "LetterSpacing": 0,
-                        "WordSpacing": 0,
-                        "FilterMode": "Point",
-                        "FontSmooth": "Auto",
-                        "Outline": {
-                          "Enabled": false,
-                          "Size": 4,
-                          "Color": "0,0,1,1"
-                        },
-                        "Shadow": {
-                          "Enabled": false,
-                          "Size": 4,
-                          "Color": "0,0,0,1",
-                          "Offset": "4,4"
-                        },
-                        "OutlineUnder": {
-                          "Enabled": false,
-                          "Size": 4,
-                          "Color": "0,1,0,1"
-                        },
-                        "ShadowUnder": {
-                          "Enabled": false,
-                          "Size": 4,
-                          "Color": "0,0,0,1",
-                          "Offset": "4,4"
-                        }
-                      }
-                    },
-                    "compiled": null
-                  },
                   "Tilted": true,
+                  "Icon": null,
                   "__references": []
                 },
                 "compiled": null
@@ -869,57 +673,8 @@
                     "_type": "gameobject",
                     "prefab": "items/coffee.prefab"
                   },
-                  "Icon": {
-                    "$compiler": "texture",
-                    "$source": "text",
-                    "data": {
-                      "Size": "96,96",
-                      "Margin": {
-                        "Left": 0,
-                        "Top": 0,
-                        "Right": 0,
-                        "Bottom": 0
-                      },
-                      "TextFlags": "Center, DontClip",
-                      "TextScope": {
-                        "Text": "☕",
-                        "TextColor": "1,1,1,1",
-                        "FontName": "Roboto",
-                        "FontSize": 40,
-                        "FontWeight": 400,
-                        "FontItalic": false,
-                        "LineHeight": 1,
-                        "LetterSpacing": 0,
-                        "WordSpacing": 0,
-                        "FilterMode": "Point",
-                        "FontSmooth": "Auto",
-                        "Outline": {
-                          "Enabled": false,
-                          "Size": 4,
-                          "Color": "0,0,1,1"
-                        },
-                        "Shadow": {
-                          "Enabled": false,
-                          "Size": 4,
-                          "Color": "0,0,0,1",
-                          "Offset": "4,4"
-                        },
-                        "OutlineUnder": {
-                          "Enabled": false,
-                          "Size": 4,
-                          "Color": "0,1,0,1"
-                        },
-                        "ShadowUnder": {
-                          "Enabled": false,
-                          "Size": 4,
-                          "Color": "0,0,0,1",
-                          "Offset": "4,4"
-                        }
-                      }
-                    },
-                    "compiled": null
-                  },
                   "Tilted": true,
+                  "Icon": null,
                   "__references": []
                 },
                 "compiled": null
@@ -966,57 +721,8 @@
                     "_type": "gameobject",
                     "prefab": "items/coffee.prefab"
                   },
-                  "Icon": {
-                    "$compiler": "texture",
-                    "$source": "text",
-                    "data": {
-                      "Size": "96,96",
-                      "Margin": {
-                        "Left": 0,
-                        "Top": 0,
-                        "Right": 0,
-                        "Bottom": 0
-                      },
-                      "TextFlags": "Center, DontClip",
-                      "TextScope": {
-                        "Text": "☕",
-                        "TextColor": "1,1,1,1",
-                        "FontName": "Roboto",
-                        "FontSize": 40,
-                        "FontWeight": 400,
-                        "FontItalic": false,
-                        "LineHeight": 1,
-                        "LetterSpacing": 0,
-                        "WordSpacing": 0,
-                        "FilterMode": "Point",
-                        "FontSmooth": "Auto",
-                        "Outline": {
-                          "Enabled": false,
-                          "Size": 4,
-                          "Color": "0,0,1,1"
-                        },
-                        "Shadow": {
-                          "Enabled": false,
-                          "Size": 4,
-                          "Color": "0,0,0,1",
-                          "Offset": "4,4"
-                        },
-                        "OutlineUnder": {
-                          "Enabled": false,
-                          "Size": 4,
-                          "Color": "0,1,0,1"
-                        },
-                        "ShadowUnder": {
-                          "Enabled": false,
-                          "Size": 4,
-                          "Color": "0,0,0,1",
-                          "Offset": "4,4"
-                        }
-                      }
-                    },
-                    "compiled": null
-                  },
                   "Tilted": true,
+                  "Icon": null,
                   "__references": []
                 },
                 "compiled": null
@@ -1124,7 +830,7 @@
           "ShowColliderComponents": false,
           "ShowRigidbodyComponent": false,
           "ThirdPerson": true,
-          "ToggleCameraModeButton": "view",
+          "ToggleCameraModeButton": "",
           "UseAnimatorControls": true,
           "UseButton": "use",
           "UseCameraControls": true,
@@ -3950,6 +3656,185 @@
         }
       ],
       "Children": []
+    },
+    {
+      "__guid": "7c229fcc-b78a-4f89-8521-8e51b05ccb45",
+      "__version": 2,
+      "Flags": 0,
+      "Name": "Enemy",
+      "Position": "128,0,61.08542",
+      "Rotation": "0,0,1,0.0000001947072",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkFlags": 0,
+      "NetworkOrphaned": 0,
+      "NetworkTransmit": true,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "Enemy",
+          "__guid": "7cf58013-e84e-4964-ab48-32abb5993fef",
+          "__enabled": true,
+          "Flags": 0,
+          "AttackCooldown": 3,
+          "AttackDuration": 1,
+          "AttackRange": 50,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null
+        },
+        {
+          "__type": "Sandbox.Rigidbody",
+          "__guid": "c3d897d6-bc10-4310-a60e-fa99e396b652",
+          "__enabled": true,
+          "Flags": 0,
+          "AngularDamping": 0,
+          "EnableImpactDamage": true,
+          "EnhancedCcd": false,
+          "Gravity": true,
+          "GravityScale": 1,
+          "ImpactDamage": 0,
+          "LinearDamping": 0,
+          "Locking": {
+            "X": false,
+            "Y": false,
+            "Z": false,
+            "Pitch": true,
+            "Yaw": false,
+            "Roll": true
+          },
+          "MassCenterOverride": "0,0,0",
+          "MassOverride": 0,
+          "MinImpactDamageSpeed": 500,
+          "MotionEnabled": true,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OverrideMassCenter": false,
+          "RigidbodyFlags": 0,
+          "StartAsleep": false
+        }
+      ],
+      "Children": [
+        {
+          "__guid": "db04b2e7-b58a-400a-a524-2977200dd680",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Model",
+          "Position": "0,0,0",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.SkinnedModelRenderer",
+              "__guid": "03fd8ab2-a685-4b54-9dc9-df2a85168b05",
+              "__enabled": true,
+              "Flags": 0,
+              "AnimationGraph": null,
+              "BodyGroups": 341,
+              "BoneMergeTarget": null,
+              "CreateAttachments": false,
+              "CreateBoneObjects": false,
+              "LodOverride": null,
+              "MaterialGroup": null,
+              "MaterialOverride": null,
+              "Materials": null,
+              "Model": "models/citizen/citizen.vmdl",
+              "Morphs": {},
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Parameters": {
+                "bools": {},
+                "ints": {},
+                "floats": {},
+                "vectors": {},
+                "rotations": {}
+              },
+              "PlaybackRate": 1,
+              "RenderOptions": {
+                "GameLayer": true,
+                "OverlayLayer": false,
+                "BloomLayer": false,
+                "AfterUILayer": false
+              },
+              "RenderType": "On",
+              "Sequence": {
+                "Name": null,
+                "Looping": true,
+                "Blending": false
+              },
+              "Tint": "1,1,1,1",
+              "UseAnimGraph": true
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "e0ce3ec4-fb32-498a-b154-e289ed8338df",
+          "__version": 2,
+          "Flags": 0,
+          "Name": "Collider",
+          "Position": "0,0,0",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkFlags": 0,
+          "NetworkOrphaned": 0,
+          "NetworkTransmit": true,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.CapsuleCollider",
+              "__guid": "b6c968ee-9cb5-4fe9-b66a-d8a59051d352",
+              "__enabled": true,
+              "Flags": 0,
+              "ColliderFlags": 0,
+              "Elasticity": null,
+              "End": "0,0,56",
+              "Friction": null,
+              "IsTrigger": false,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "OnObjectTriggerEnter": null,
+              "OnObjectTriggerExit": null,
+              "OnTriggerEnter": null,
+              "OnTriggerExit": null,
+              "Radius": 16,
+              "RollingResistance": null,
+              "Start": "0,0,16.06766",
+              "Static": false,
+              "Surface": null,
+              "SurfaceVelocity": "0,0,0"
+            }
+          ],
+          "Children": []
+        }
+      ]
     }
   ],
   "SceneProperties": {
@@ -3960,7 +3845,7 @@
       "Title": "minimal"
     },
     "NavMesh": {
-      "Enabled": false,
+      "Enabled": true,
       "IncludeStaticBodies": true,
       "IncludeKeyframedBodies": true,
       "EditorAutoUpdate": true,

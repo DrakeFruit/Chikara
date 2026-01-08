@@ -12,7 +12,7 @@
 			@foreach ( var i in Player.Items )
 			{
 				<div class="Item">
-					<Image Texture="@i.Key.Icon" alt=""/>
+					<Image Texture="@(i.Key.Icon)"/>
 					@if ( i.Value > 1 )
 					{
 						<div class="ItemCounter"><div>x</div>@i.Value</div>
@@ -21,7 +21,9 @@
 			}
 		}
 	</div>
-</root>
+
+	<div class="HealthBar">@Player.Health</div>
+</root> 
 
 @code
 {
@@ -34,6 +36,7 @@
 			hash.Add(item.Key);
 			hash.Add(item.Value);
 		}
+		hash.Add(Player.Health);
 		return hash.ToHashCode();
 	}
 }

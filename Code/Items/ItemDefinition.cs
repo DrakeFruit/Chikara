@@ -13,10 +13,5 @@ public class ItemDefinition : GameResource
 	[TargetType(typeof(Item))] public Type ItemComponent { get; set; }
 	public GameObject Prefab { get; set; }
 	[Description( "Tilts the item 15 degrees on the ground and in previews" )] public bool Tilted { get; set; } = true;
-	[Hide] public Texture Icon => CreateIcon();
-
-	public Texture CreateIcon()
-	{
-		return Texture.White;
-	}
+	public Texture Icon { get; set; }
 }

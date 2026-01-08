@@ -6,8 +6,7 @@ HUD
 	height: 100%;
 	padding-top: .5%;
 	
-	.Items
-	{
+	.Items {
 		position: relative;
 		margin: 4px;
 		background-color: rgba(0, 0, 0, 0.75);
@@ -18,13 +17,12 @@ HUD
 		flex-wrap: wrap;
 		flex-direction: row;
 	}
-	.Item img
-	{
+
+	.Item Image {
 		width: 115px;
 		height: 115px;
 	}
-	.ItemCounter
-	{
+	.ItemCounter {
 		color: white;
 		text-stroke: 10px black;
 		font-weight: bold;
@@ -32,5 +30,15 @@ HUD
 		font-size: 35px;
 		left: 55px;
 		top: 55px;
+	}
+
+	.HealthBar {
+		position: absolute;
+		bottom: 5%;
+		left: 5%;
+		width: 300px;
+		height: 30px;
+		background-color: rgba(0, 0, 0, 0.75);
+		border: 3px solid rgba(0, 0, 0, 1);
 	}
 }

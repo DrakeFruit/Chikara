@@ -31,6 +31,7 @@
               "_type": "gameobject",
               "prefab": "items/coffee.prefab"
             },
+            "Tilted": true,
             "Icon": {
               "$compiler": "texture",
               "$source": "text",
@@ -79,9 +80,8 @@
                   }
                 }
               },
-              "compiled": null
+              "compiled": "textures/generated/text/8c9ca4a7790dbafc.vtex"
             },
-            "Tilted": true,
             "__references": []
           },
           "compiled": null
@@ -173,7 +173,7 @@
             "InsideColor": "1,1,1,0",
             "InsideObscuredColor": "1,1,1,0",
             "Material": null,
-            "ObscuredColor": "1,1,1,1",
+            "ObscuredColor": "1,1,1,0",
             "OnComponentDestroy": null,
             "OnComponentDisabled": null,
             "OnComponentEnabled": null,
@@ -181,7 +181,7 @@
             "OnComponentStart": null,
             "OnComponentUpdate": null,
             "OverrideTargets": false,
-            "Targets": null,
+            "Targets": [],
             "Width": 0.25
           }
         ],
